@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar-section start -->
+
+    <section class="top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-info">
+              <a href="tel:+447748646756"
+                ><i aria-hidden="true" class="fa fa-phone"></i> +447748646756</a
+              >
+              <a href="mailto:precisiontutorings@gmail.com"
+                ><i class="fa fa-envelope"></i>precisiontutorings@gmail.com</a
+              >
+            </div>
+          </div>
+          <!-- <div class="col-md-2">
+            <div class="logo">
+              <img src="images/logo.png" alt="logo" title="" />
+            </div>
+          </div> -->
+          <div class="col-md-6">
+            <div class="login-wrap">
+              <a href=""><i class="fa fa-user"></i>login</a>
+              <a href=""><i class="fa fa-sign-in"></i>Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-xl navbar-dark main-nav">
+              <a class="navbar-brand" href="#"
+                ><img src="images/logo.png" class="img-fluid" alt=""
+              /></a>
+              <button
+                class="navbar-toggler ms-auto"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse w-100 navbarNav"
+                id="navbarSupportedContent"
+              >
+                <ul class="nav navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About Us </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services-section">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#our-testimonials">Testimonials</a>
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#chooseus-section">Educational Consultancy </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services-section">Our Tutos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blog-section">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact_us">Contact Us</a>
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav user-login">
+                  <div class="login-wrap">
+                    <a href=""><i class="fa fa-user"></i>login</a>
+                    <a href=""><i class="fa fa-sign-in"></i>Sign Up</a>
+                  </div>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- navbar-section ends -->
+    <!-- baner-slide section start -->
+    <section id="slider-section">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img
+              src="images/banner-slide/banner-02.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h5>Dedicated Personalised Tuition</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam, quo officiis vitae modi sequi sint velit iure nemo nisi doloremque.
+              </p>
+              <a href="#" class="btn prt-btn-bluee prt-btn1"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="images/banner-slide/banner-01.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h5>Best Online Tutor Learn Anything</h5>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam, quo officiis vitae modi sequi sint velit iure nemo nisi doloremque.
+              </p>
+              <a href="#" class="btn prt-btn-bluee prt-btn1"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="images/banner-slide/banner-03.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <h5>Helps You Achieve Your Goal</h5>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam, quo officiis vitae modi sequi sint velit iure nemo nisi doloremque.
+              </p>
+              <a href="#" class="btn prt-btn-bluee prt-btn1"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- banner-slide section ends -->
+    <!-- about-section starts -->
+    <section id="about-section">
+      <div class="container">
+        <div class="row py-2">
+          <h2 class="text-center precision-about-hdng">
+            Welcome to
+            <span class="precision-about-hdng-txt">Precision Tutoring</span>
+          </h2>
+          <p class="text-center title-para">
+            We provide great education in town for professional courses select
+            the best course for <br />
+            you and start increasing your skillset today!
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="precision-img" src="images/about/wel-img.webp" alt="" />
+          </div>
+          <div class="col-md-6">
+            <p class="precision-info">
+              We have a dedicated team of professional tutors who are experts in
+              their field with a minimum of a Bachelor's degree in their subject
+              specialism. These tutors are all currently teaching at top
+              independent schools or have extensive experience in teaching. We
+              have a very strong team to help with difficult entrance
+              examinations as well as prepare for GCSE and A Level examinations.
+              <br />
+
+              We have a dedicated team of professional tutors who are experts in
+              their field with a minimum of a Bachelor's degree in their subject
+              specialism. These tutors are all currently teaching at top
+              independent schools or have extensive experience in teaching. We
+              have a very strong team to help with difficult entrance
+              examinations as well as prepare for GCSE and A Level examinations.
+            </p>
+            <a href="#" class="btn prt-btn-bluee prt-btn1">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about- -->
+    <!-- why choose us section starts -->
+    <section class="chooseus-section" id="chooseus-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="upper-hdng">
+            <h2 class="light-title">Why choose us</h2>
+            <p class="text-center">
+              We provide great education in town for professional courses select
+              the best course for <br />
+              you and start increasing your skillset today!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="choose-us">
+              <img src="images/choose-us/icon1.png" alt="" />
+              <h4>Qualified Teachers</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                consequatur consectetur enim quidem impedit suscipit blanditiis
+                nihil repellat laborum hic.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="choose-us">
+              <img src="images/choose-us/icon2.png" alt="" />
+              <h4>Online Classes</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                consequatur consectetur enim quidem impedit suscipit blanditiis
+                nihil repellat laborum hic.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="choose-us">
+              <img src="images/choose-us/icon3.png" alt="" />
+              <h4>Graduation Degree</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                consequatur consectetur enim quidem impedit suscipit blanditiis
+                nihil repellat laborum hic.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="choose-us">
+              <img src="images/choose-us/icon4.png" alt="" />
+              <h4>Mastery Learning</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                consequatur consectetur enim quidem impedit suscipit blanditiis
+                nihil repellat laborum hic.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="choose-us">
+              <img src="images/choose-us/icon5.png" alt="" />
+              <h4>Library System</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                consequatur consectetur enim quidem impedit suscipit blanditiis
+                nihil repellat laborum hic.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="choose-us">
+              <img src="images/choose-us/icon6.png" alt="" />
+              <h4>Abundant Labs</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                consequatur consectetur enim quidem impedit suscipit blanditiis
+                nihil repellat laborum hic.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why choose us section ends -->
+
+    <!-- our services section starts -->
+    <section class="services-section" id="services-section">
+      <div class="container">
+        <div class="row text-center">
+          <h2 class="service-hdng">Our <span>Services</span></h2>
+          <p class="service-para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+            alias eius ullam?
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="services text-center">
+              <div class="icon-serv">
+                <img src="images/services/ser1.png" alt="" />
+              </div>
+              <h4>Personalised one-to-one classes</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint,
+                nisi suscipit. Cumque, ab animi! Recusandae quo dolorem fugiat
+                exercitationem praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="services text-center">
+              <div class="icon-serv">
+                <img src="images/services/ser2.png" alt="" />
+              </div>
+              <h4>Group lesson</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint,
+                nisi suscipit. Cumque, ab animi! Recusandae quo dolorem fugiat
+                exercitationem praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="services text-center">
+              <div class="icon-serv">
+                <img src="images/services/ser3.png" alt="" />
+              </div>
+              <h4>Common entrance</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint,
+                nisi suscipit. Cumque, ab animi! Recusandae quo dolorem fugiat
+                exercitationem praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="services text-center">
+              <div class="icon-serv">
+                <img src="images/services/ser4.png" alt="" />
+              </div>
+              <h4>GCSE & IGCSE</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint,
+                nisi suscipit. Cumque, ab animi! Recusandae quo dolorem fugiat
+                exercitationem praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="services text-center">
+              <div class="icon-serv">
+                <img src="images/services/ser5.png" alt="" />
+              </div>
+              <h4>A level & IB</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint,
+                nisi suscipit. Cumque, ab animi! Recusandae quo dolorem fugiat
+                exercitationem praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="services text-center">
+              <div class="icon-serv">
+                <img src="images/services/ser6.png" alt="" />
+              </div>
+              <h4>Home schooling</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint,
+                nisi suscipit. Cumque, ab animi! Recusandae quo dolorem fugiat
+                exercitationem praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="services text-center">
+              <div class="icon-serv">
+                <img src="images/services/ser7.png" alt="" />
+              </div>
+              <h4>Intensive revision</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint,
+                nisi suscipit. Cumque, ab animi! Recusandae quo dolorem fugiat
+                exercitationem praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="services text-center">
+              <div class="icon-serv">
+                <img src="images/services/ser8.png" alt="" />
+              </div>
+              <h4>Extra curricular activities</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint,
+                nisi suscipit. Cumque, ab animi! Recusandae quo dolorem fugiat
+                exercitationem praesentium.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our services section ends -->
+    <!-- testimonials section start -->
+    <section class="our-testimonials" id="our-testimonials">
+      <div class="container">
+        <div class="row text-center">
+          <h2 class="testimonials-hdng">Our <span>Testimonials</span></h2>
+          <p class="testimonials-para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+            alias eius ullam?
+          </p>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-12">
+            <div id="testimonial-slider" class="owl-carousel">
+              <div class="item">
+                <div class="testimonial-wrapp">
+                  <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                  <div class="testimonial-text">
+                    <p class="bottom44">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Excepturi laborum nobis at provident ipsa ex eius autem
+                      quos cumque harum esse, fugiat sint molestias ea debitis
+                      unde alias nam soluta!
+                    </p>
+                  </div>
+                  <div class="testimonial-image">
+                    <img src="images/testimonials/img-3.jfif" alt="" />
+                  </div>
+                  <h4>David</h4>
+                  <small>Business man</small>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-wrapp">
+                  <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                  <div class="testimonial-text">
+                    <p class="bottom44">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Excepturi laborum nobis at provident ipsa ex eius autem
+                      quos cumque harum esse, fugiat sint molestias ea debitis
+                      unde alias nam soluta!
+                    </p>
+                  </div>
+                  <div class="testimonial-image">
+                    <img src="images/testimonials/img-1.jfif" alt="" />
+                  </div>
+                  <h4>David</h4>
+                  <small>Business man</small>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-wrapp">
+                  <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                  <div class="testimonial-text">
+                    <p class="bottom44">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Excepturi laborum nobis at provident ipsa ex eius autem
+                      quos cumque harum esse, fugiat sint molestias ea debitis
+                      unde alias nam soluta!
+                    </p>
+                  </div>
+                  <div class="testimonial-image">
+                    <img src="images/testimonials/img-2.jfif" alt="" />
+                  </div>
+                  <h4>David</h4>
+                  <small>Business man</small>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimonial-wrapp">
+                  <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                  <div class="testimonial-text">
+                    <p class="bottom44">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Excepturi laborum nobis at provident ipsa ex eius autem
+                      quos cumque harum esse, fugiat sint molestias ea debitis
+                      unde alias nam soluta!
+                    </p>
+                  </div>
+                  <div class="testimonial-image">
+                    <img src="images/testimonials/img-3.jfif" alt="" />
+                  </div>
+                  <h4>David</h4>
+                  <small>Business man</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials section ends -->
+    <!-- contactus section starts -->
+    <section id="contact_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-8 prt-contact-cont text-center">
+            <h5 class="text-uppercase text-white">get started today</h5>
+            <p class="text-white">
+              GET STARTED TODAY Lorem ipsums dolors sit amet consectetur
+              adipiselo elit sed do eiused tempor the incididunt ut labore et.
+              Auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit
+              amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum
+              velit. Nam nec tellus a odio tincidunt mauris. Duis sed odio sit
+              amet nibh vulputate cursus a sit amet . Morbi accumsan ipsum
+              velit.
+            </p>
+            <a href="#" class="btn prt-btn-1 prt-btn3">Contact Us</a>
+          </div>
+          <div class="col-md-2">
+          </div>s
+        </div>
+      </div>
+    </section>
+    <!-- contact us section ends -->
+    <!-- carousel section -->
+    <section id="blog-section">
+      <div class="container">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="images/carousel-img/blog2.jfif" alt="" />
+            <h5 class="pt-3 ps-2 pe-2 fw-bold blog-carousel-hdng">
+              The World Best University
+            </h5>
+            <p class="ps-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+              molestias, beatae omnis tempora iure debitis.
+            </p>
+            <div class="box">
+              <a href="#" class="btn prt-btn-bluee">Read more</a>
+              <p>Admin | nov18,2022</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/carousel-img/blog3.jfif" alt="" />
+            <h5 class="pt-3 ps-2 pe-2 fw-bold blog-carousel-hdng">
+              The World Best University
+            </h5>
+            <p class="ps-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+              molestias, beatae omnis tempora iure debitis.
+            </p>
+            <div class="box">
+              <a href="#" class="btn prt-btn-bluee">Read more</a>
+              <p>Admin | nov18,2022</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/carousel-img/blog2.jfif" alt="" />
+            <h5 class="pt-3 ps-2 pe-2 fw-bold blog-carousel-hdng">
+              The World Best University
+            </h5>
+            <p class="ps-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+              molestias, beatae omnis tempora iure debitis.
+            </p>
+            <div class="box">
+              <a href="#" class="btn prt-btn-bluee">Read more</a>
+              <p>Admin | nov18,2022</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/carousel-img/blog3.jfif" alt="" />
+            <h5 class="pt-3 ps-2 pe-2 fw-bold blog-carousel-hdng">
+              The World Best University
+            </h5>
+            <p class="ps-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+              molestias, beatae omnis tempora iure debitis.
+            </p>
+            <div class="box">
+              <a href="#" class="btn prt-btn-bluee">Read more</a>
+              <p>Admin | nov18,2022</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/carousel-img/blog2.jfif" alt="" />
+            <h5 class="pt-3 ps-2 pe-2 fw-bold blog-carousel-hdng">
+              The World Best University
+            </h5>
+            <p class="ps-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+              molestias, beatae omnis tempora iure debitis.
+            </p>
+            <div class="box">
+              <a href="#" class="btn prt-btn-bluee">Read more</a>
+              <p>Admin | nov18,2022</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/carousel-img/blog3.jfif" alt="" />
+            <h5 class="pt-3 ps-2 pe-2 fw-bold blog-carousel-hdng">
+              The World Best University
+            </h5>
+            <p class="ps-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+              molestias, beatae omnis tempora iure debitis.
+            </p>
+            <div class="box">
+              <a href="#" class="btn prt-btn-bluee">Read more</a>
+              <p>Admin | nov18,2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer-secton starts -->
+    <footer>
+      <div class="container prt-upperfooter">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About us</h3>
+            <p>
+              We have a dedicated team of professional tutors who are experts in
+              their field with a minimum of a Bachelor's degree in their subject
+              specialism.
+            </p>
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>London,
+              Surbiton
+            </p>
+            <p>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <a href="tel:+4444444444" class="footer-tel-cls">45454535353</a>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3>Links</h3>
+            <div class="links d-flex m-auto">
+              <div class="footer-links d-flex flex-column">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Testimonials</a>
+              </div>
+              <div class="footer-links2 d-flex flex-column ms-auto">
+                <a href="#">Blog</a>
+                <a href="#">Our tuts</a>
+                <a href="#">Contact us</a>
+                <a href="#">Tutor application</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3>Newsletter</h3>
+            <p>
+              Don’t miss anything, sign up now and keep informed about our
+              company.
+            </p>
+            <div class="newsleter-form d-flex align-items-center">
+              <input
+                type="email"
+                class="input-email"
+                placeholder="Enter your e-mail"
+              />
+              <button type="submit" class="btn prt-btn1 prt-btn2 d-flex align-items-center">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-section">
+        <div class="container prt-lower-container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="left">
+                <p>
+                  Copyright © 2022 <a href="#"> precisiontutoring.co.uk</a> All
+                  Rights Reserved
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 ms-auto">
+              <div class="footer-social-links ms-auto">
+                <a href="#"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-section ends -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        // nav:true,
+        autoplay: true,
+        autoplatTimeout: 1000,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
