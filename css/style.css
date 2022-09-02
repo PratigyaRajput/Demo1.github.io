@@ -695,6 +695,12 @@ footer h3 {
         display: none !important;
     }
 }
+@media (max-width:375px) {
+    .quoted {
+        left: 38%;
+    }
+
+}
 
     @media (max-width:360px)
     {
