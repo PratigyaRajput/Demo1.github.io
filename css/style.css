@@ -376,17 +376,16 @@ padding: 80px 0;
 .quottted{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .quoted {
+    margin-top: -20px;
     background-color: #135bc9;
     color:#fff;
     width: 70px;
     height: 70px;
     display: inline-block;
     border-radius: 50%;
-   
-   
-
 }
 .quoted .fa {
     position: relative;
