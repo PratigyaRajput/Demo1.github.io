@@ -628,12 +628,7 @@ padding-top: 30px;
 .precision-info {
     font-size: 16px;
 }
-/* .light-title {
-    font-size: 25px;
-} */
-.chooseus-section .upper-hdng p{
-    font-size: 16px;
-}
+
 .chooseus-section {
     padding: 1.5rem 0px;
 }
@@ -707,12 +702,15 @@ footer h3 {
             top: 46%;
             padding: 10px 0px;
           } */
+        
         .carousel-caption h5{
             font-size: 20px;
         }
         .quoted {
-            left: 46%;
+            left: 38%;
         }
+       
+        
     
         /* .carousel-caption p{
             display: none;
