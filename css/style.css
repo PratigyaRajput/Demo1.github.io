@@ -583,10 +583,7 @@ padding-top: 30px;
     .top-header{
         display: none;
     }
-   
-
 }
-
 @media (max-width:768px)
 {
     .logo {
