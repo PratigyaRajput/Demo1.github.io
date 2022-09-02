@@ -583,9 +583,7 @@ padding-top: 30px;
     .top-header{
         display: none;
     }
-    .newsleter-form input {
-        margin-bottom: 12px;
-    }
+   
 
 }
 
@@ -686,9 +684,7 @@ footer h3 {
 .carousel-caption {
     margin-bottom: -8px;
 }
-.newsleter-form input {
-    margin-bottom: 12px;
-}
+
 }
 @media (max-width:540px)
 {
