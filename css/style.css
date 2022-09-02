@@ -373,6 +373,10 @@ padding: 80px 0;
     padding: 0px 10px 10px 10px;
 
 }
+.quottted{
+    display: flex;
+    align-items: center;
+}
 .quoted {
     background-color: #135bc9;
     color:#fff;
@@ -380,9 +384,8 @@ padding: 80px 0;
     height: 70px;
     display: inline-block;
     border-radius: 50%;
-    position: absolute;
-    top: -20px;
-    left: 38%;
+   
+   
 
 }
 .quoted .fa {
@@ -577,9 +580,7 @@ padding-top: 30px;
     .prt-contact-cont {
         padding: 20px 0px 20px 0px;
     }
-    .quoted {
-        left: 46%;
-    }
+    
     .top-header{
         display: none;
     }
@@ -695,12 +696,7 @@ footer h3 {
         display: none !important;
     }
 }
-@media (max-width:375px) {
-    .quoted {
-        left: 38%;
-    }
 
-}
 
     @media (max-width:360px)
     {
@@ -712,9 +708,7 @@ footer h3 {
         .carousel-caption h5{
             font-size: 20px;
         }
-        .quoted {
-            left: 38%;
-        }
+     
        
         
     
