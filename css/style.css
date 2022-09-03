@@ -716,6 +716,9 @@ footer h3 {
     .prt-newsltr {
         margin-top: 0px;
     }
+    section#our-testimonials {
+        padding-bottom: 10px;
+    }
 }
 
 
