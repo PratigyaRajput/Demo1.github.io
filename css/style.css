@@ -532,7 +532,7 @@ footer input:focus {
     margin: 0;
 }
 .prt-upperfooter {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 .prt-lower-container a {
     color: #86bd56;
@@ -706,6 +706,9 @@ footer h3 {
     }
     footer {
         padding: 20px 0px;
+    }
+    .prt-upperfooter {
+        padding-bottom: 20px;
     }
 }
 
