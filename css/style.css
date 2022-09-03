@@ -674,6 +674,9 @@ footer h3 {
 .carousel-caption {
     margin-bottom: -8px;
 }
+.prt-newsltr {
+    margin-top: 10px;
+}
 
 }
 @media (max-width:540px)
@@ -709,6 +712,9 @@ footer h3 {
     }
     .prt-upperfooter {
         padding-bottom: 20px;
+    }
+    .prt-newsltr {
+        margin-top: 0px;
     }
 }
 
